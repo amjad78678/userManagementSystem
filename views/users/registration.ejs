@@ -46,8 +46,11 @@
     }else{
         document.getElementById('nameError').innerHTML=''
     }
-    const emailRegex = /^[a-zA-Z0-9._-]+@['gmail']+\.[a-zA-Z]{2,4}$/;
-    if (!emailRegex.test(email)){
+    const emailOne = /^[^\s@]+@/;
+    const emailTwo=/[a-zA-Z\d-]+\.(com|net|org)$/
+    const combinedRegex=new RegExp(emailOne.source+emailTwo.source)
+
+    if (!combinedRegex.test(email)){
         document.getElementById('emailError').innerHTML='  Please enter a valid Gmail address'
         return false
     }else{
