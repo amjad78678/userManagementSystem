@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/userLogin.webp'); /* Adjust the path as needed */
+    background-size: cover; /* or contain, depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b4965;
+}
+
+p {
+    margin-top: 10px;
+    color: green;
+}
+
+.error {
+    color: red;
+    margin-left: 10px;
+    display: block;
+}

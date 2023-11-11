@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/userLogin.webp'); /* Adjust the path as needed */
+    background-size: cover; /* or contain, depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center-container {
+    max-width: 600px;
+    width: 100%;
+}
+
+.home-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.logout-link,
+a {
+    text-decoration: none;
+    color: #3498db;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #1b4965;
+}

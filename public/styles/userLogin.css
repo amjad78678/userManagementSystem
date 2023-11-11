@@ -1,0 +1,85 @@
+/* Add this style in a separate CSS file or in a <style> tag in your HTML */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/userLogin.webp'); /* Adjust the path as needed */
+    background-size: cover; /* or contain, depending on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+
+form {
+    background-color: #ffffff00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(20px);
+    border: 1px solid white;
+}
+
+h1 {
+    color: #f2ecec;
+}
+
+h4 {
+    color: green;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Add this style for the SignUp link */
+form a.signup-link {
+    display: block;
+    margin-top: 35px;
+    text-align: center;
+    color: #3498db; /* Link color */
+    text-decoration: none;
+    
+}
+
+form a.signup-link:hover {
+    color: #1b4965; /* Hover color */
+}
+.have{
+    color: white;
+    font-size: 15px;
+    float: inline-end;
+    margin-right: 108px;
+    margin-top: 10px;
+
+}
+.error{
+  color: red;
+  margin-left: 10px;
+  display: block;
+
+}
